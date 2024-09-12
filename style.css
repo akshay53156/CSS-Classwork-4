@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #D3D3D3;
+}
+
+body{
+    overflow: hidden;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, #B92B28, #1565BF);
+    transform: skewY(10deg);
+    box-shadow: 0 0 10px black;
+    display: flex;
+    position: relative;
+}
+
+.main{
+    width: 85%;
+    height: 75%;
+    transform: skewY(-10deg);
+    margin: auto;
+    background: linear-gradient(90deg, #8A2387, #E33E5A, #F27122);
+    box-shadow: 0 0 10px black;
+    margin-top: 7.5%;
+}
+
+.content{
+    width: 45%;
+    color: white;
+    background-color: transparent;
+    padding: 2.3%;
+
+    & > p{
+        margin: 2rem 0;
+        font-size: large;
+        background-color: transparent;
+    }
+
+    & > h1{
+        background-color: transparent;
+    }
+}
+
+img{
+    position: absolute;
+    width: 45%;
+    margin-left: 63%;
+    margin-top: -5%;
+    background-color: transparent;
+}
+
+img:hover{
+    transform: translate(-30%, 10%) scale(1.4);
+}
+
